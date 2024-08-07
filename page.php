@@ -1,178 +1,4 @@
-<?php
 
-//Get current URL and parameters for correct pagination $protocol=$_SERVER['SERVER_PROTOCOL'];
-$domain = $_SERVER['HTTP_HOST'];
-$script = $_SERVER['SCRIPT_NAME'];
-$parameters = $_SERVER['QUERY_STRING'];
-$protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']), 'https') === FALSE ? 'http' : 'https';
-$currenturl = $protocol . '://' . $domain . $script . '?' . $parameters;
-$new_url = preg_replace(
-    '/&?pageno=[^&]*/',
-    ''
-    ,
-    $currenturl
-);
-$site_name = "Payup Francesca | You Owe Kelvin $1593";
-$site_url = $protocol . "://" . $domain;
-$base_url = "/payupfrancesca";
-$today = date("Y-m-d");
-?>
-
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="auto">
-
-<head>
-
-    <!-- Core scripts -->
-    <script src="<?php echo $base_url; ?>/assets/js/color-modes.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Kelvin">
-    <meta name="generator" content="Hugo 0.122.0">
-    <title>Payup Francesca | You Owe Kelvin $1593</title>
-
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <link rel="icon" href="assets/img/favicons/favicon.ico">
-    <meta name="theme-color" content="#712cf9">
-
-    <!-- Custom CSS -->
-    <link href="<?php echo $base_url; ?>/assets/css/custom.css" rel="stylesheet">
-    <link href="<?php echo $base_url; ?>/assets/css/carousel.css" rel="stylesheet">
-</head>
-
-<body class="d-flex flex-column h-100">
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-        <symbol id="check2" viewBox="0 0 16 16">
-            <path
-                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-        </symbol>
-        <symbol id="circle-half" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-        </symbol>
-        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-            <path
-                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
-            <path
-                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
-        </symbol>
-        <symbol id="sun-fill" viewBox="0 0 16 16">
-            <path
-                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-        </symbol>
-    </svg>
-
-    <!-- Dark theme toggle -->
-
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
-            aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-            <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-                <use href="#circle-half"></use>
-            </svg>
-            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
-                    aria-pressed="false">
-                    <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                        <use href="#sun-fill"></use>
-                    </svg>
-                    Light
-                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                        <use href="#check2"></use>
-                    </svg>
-                </button>
-            </li>
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
-                    aria-pressed="false">
-                    <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                        <use href="#moon-stars-fill"></use>
-                    </svg>
-                    Dark
-                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                        <use href="#check2"></use>
-                    </svg>
-                </button>
-            </li>
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
-                    aria-pressed="true">
-                    <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                        <use href="#circle-half"></use>
-                    </svg>
-                    Auto
-                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                        <use href="#check2"></use>
-                    </svg>
-                </button>
-            </li>
-        </ul>
-    </div>
-
-
-    <!-- Navbar -->
-    <header data-bs-theme="dark">
-        <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-            <div class="container-fluid py-2">
-                <a class="navbar-brand plain-link text-dark fw-bold" href="">
-                    <img src="assets/img/francesca.png" alt="Profile picture" width="35" height="35"
-                        class="rounded-circle border border-primary border-2">
-                    PayUpFrancesca
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item"></li>
-                    </ul>
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="#the-scam">The Scam</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="#evidence">Evidence</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <span>
-                        <a class="btn btn-outline-dark btn-light" href="#portfolio">
-                            <i class="bi bi-kanban"></i> My Portfolio
-                        </a>
-                    </span>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main contenteditable>
 
         <div class="px-4 pt-5 my-5 text-center">
             <h1 class="display-4 fw-bold text-body-emphasis">A Story of Unpaid Work | Exposing Francesca DelGuidice
@@ -204,8 +30,7 @@ $today = date("Y-m-d");
                     <!-- <h2 class="featurette-heading fw-normal lh-1">About Me. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p> -->
                     <div class="col d-flex justify-content-center align-items-center p-5">
-                        <img src="assets/img/kelvin.jpg" alt="Profile picture" width="200" height="200"
-                            class="profile-picture rounded-circle border border-dark-75 border-5">
+                        <img src="assets/img/kelvin.jpg" alt="Profile picture" width="200" height="200" class="profile-picture rounded-circle border border-dark-75 border-5">
                     </div>
                 </div>
                 <div class="col">
@@ -250,8 +75,7 @@ $today = date("Y-m-d");
 
             <div class="row">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">And who's Francesca? <span
-                            class="text-body-secondary">Well, where do I even start?</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">And who's Francesca? <span class="text-body-secondary">Well, where do I even start?</span></h2>
                     <p class="lh-1 pt-3 pt-1 fs-5">I don't have many good things to say about Francesca as a person,
                         if
                         at all.</p>
@@ -279,9 +103,7 @@ $today = date("Y-m-d");
                                 <i class="bi bi-fire text-dark fs-2"></i>
                             </span>
                         </div> -->
-                        <img src="<?php echo $base_url; ?>/assets/img/francesca-square.png"
-                            class="zoom d-block mx-lg-auto img-fluid" alt="Francesca" width="700" height="480"
-                            loading="lazy">
+                        <img src="/payupfrancesca/assets/img/francesca-square.png" class="zoom d-block mx-lg-auto img-fluid" alt="Francesca" width="700" height="480" loading="lazy">
                         <div class="d-flex flex-column h-100 p-3 text-center text-shadow-1">
                             <h4 class="p-2 lh-1 fw-bold">Francesca DelGuidice</h4>
                         </div>
@@ -300,11 +122,9 @@ $today = date("Y-m-d");
             <div class="row g-5">
                 <div class="col-md-8">
                     <h3 class="py-3 my-3 fst-italic border-bottom">
-                        <i class="bi bi-quote display-6"
-                            style="display: inline-block; transform: translateY(-10px);"></i>It's now clear as day
+                        <i class="bi bi-quote display-6" style="display: inline-block; transform: translateY(-10px);"></i>It's now clear as day
                         she
-                        had intention of paying up — it was a long con.<i class="bi bi-quote display-6"
-                            style="display: inline-block; transform:rotate(180deg) translateY(10px);"></i>
+                        had intention of paying up — it was a long con.<i class="bi bi-quote display-6" style="display: inline-block; transform:rotate(180deg) translateY(10px);"></i>
                     </h3>
 
                     <article class="blog-post">
@@ -346,8 +166,7 @@ $today = date("Y-m-d");
                                 meticulous care and attention to detail."</p>
                         </blockquote>
                         <p>However, as the work (Yupvoted alongside a few other projects I'd picked up
-                            <a
-                                href="https://docs.google.com/spreadsheets/d/1NQ06jl0EMYZbuKCtz_DdFZeL9ctnso3cpjJwuPZpXnI/view">
+                            <a href="https://docs.google.com/spreadsheets/d/1NQ06jl0EMYZbuKCtz_DdFZeL9ctnso3cpjJwuPZpXnI/view">
                                 as my Timesheet shows</a>) drew to a close and payment time approached, Francesca's
                             demeanor
                             shifted in a troubling way. Suddenly, getting hold of her turned into a frustrating game
@@ -386,15 +205,11 @@ $today = date("Y-m-d");
                         <p>As the situation with Francesca dragged on, I sent her a strongly worded email,
                             expressing my
                             frustration and demanding resolution. </p>
-                        <img src="<?php echo $base_url; ?>/assets/img/strongly-worded-email.png"
-                            class="zoom d-block mx-lg-auto img-fluid" alt="Email screenshot" width="700" height="480"
-                            loading="lazy">
+                        <img src="/payupfrancesca/assets/img/strongly-worded-email.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email screenshot" width="700" height="480" loading="lazy">
                         <p>To my surprise, I received a response from Stephanie, Francesca's cousin (or so she
                             claimed),
                             who acknowledged the issue and promised to look into it.</p>
-                        <img src="<?php echo $base_url; ?>/assets/img/stephanie.png"
-                            class="zoom d-block mx-lg-auto img-fluid" alt="Email from Stephanie" width="700"
-                            height="480" loading="lazy">
+                        <img src="/payupfrancesca/assets/img/stephanie.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email from Stephanie" width="700" height="480" loading="lazy">
                         <p>It was curious that Stephanie appeared to distort my communication, implying I had merely
                             requested a response from Francesca by the 30th of June, whereas my message had clearly
                             stipulated an expectation of receiving full or partial compensation by that date.</p>
@@ -408,9 +223,7 @@ $today = date("Y-m-d");
                             the entire ordeal to him, emphasizing the hardship and frustration I had endured due to
                             the
                             unpaid work.</p>
-                        <img src="<?php echo $base_url; ?>/assets/img/colin.png"
-                            class="zoom d-block mx-lg-auto img-fluid" alt="Email to Colin" width="700" height="480"
-                            loading="lazy">
+                        <img src="/payupfrancesca/assets/img/colin.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email to Colin" width="700" height="480" loading="lazy">
 
                         <blockquote class="blockquote">
                             <p>"Desperate for a resolution, I decided to reach out to Colin, Francesca's husband,
@@ -497,9 +310,7 @@ $today = date("Y-m-d");
                 <div class="col">
                     <a class="boring" href="#!">
                         <div class="p-1 rounded-4 shadow-lg">
-                            <img src="<?php echo $base_url; ?>/assets/img/yupvoted.png"
-                                class="zoom d-block mx-lg-auto img-fluid rounded-4" alt="Yupvoted" width="700"
-                                height="500" loading="lazy">
+                            <img src="/payupfrancesca/assets/img/yupvoted.png" class="zoom d-block mx-lg-auto img-fluid rounded-4" alt="Yupvoted" width="700" height="500" loading="lazy">
                             <h4 class="pt-3 mt-2 mb-4 fw-bold text-dark d-flex justify-content-center">
                                 Yupvoted
                             </h4>
@@ -509,9 +320,7 @@ $today = date("Y-m-d");
                 <div class="col">
                     <a class="boring" href="#!">
                         <div class="p-1 rounded-4 shadow-lg">
-                            <img src="<?php echo $base_url; ?>/assets/img/blklite.png"
-                                class="zoom d-block mx-lg-auto img-fluid rounded-4" alt="Blklite" width="700"
-                                height="500" loading="lazy">
+                            <img src="/payupfrancesca/assets/img/blklite.png" class="zoom d-block mx-lg-auto img-fluid rounded-4" alt="Blklite" width="700" height="500" loading="lazy">
                             <h4 class="pt-3 mt-2 mb-4 fw-bold text-dark d-flex justify-content-center">
                                 Blklite
                             </h4>
@@ -521,9 +330,7 @@ $today = date("Y-m-d");
                 <div class="col">
                     <a class="boring" href="#!">
                         <div class="p-1 rounded-4 shadow-lg">
-                            <img src="<?php echo $base_url; ?>/assets/img/cv.png"
-                                class="zoom d-block mx-lg-auto img-fluid rounded-4" alt="Online CV" width="700"
-                                height="500" loading="lazy">
+                            <img src="/payupfrancesca/assets/img/cv.png" class="zoom d-block mx-lg-auto img-fluid rounded-4" alt="Online CV" width="700" height="500" loading="lazy">
                             <h4 class="pt-3 mt-2 mb-4 fw-bold text-dark d-flex justify-content-center">
                                 Online CV
                             </h4>
@@ -540,8 +347,7 @@ $today = date("Y-m-d");
                             strategy brief below.
                         </p>
                         <div class="col d-flex justify-content-center align-items-center p-2">
-                            <img src="<?php echo $base_url; ?>/assets/img/strategy.png" alt="Strategy" width="360"
-                                height="300" class="profile-picture rounded-2 border border-dark-75 border-5">
+                            <img src="/payupfrancesca/assets/img/strategy.png" alt="Strategy" width="360" height="300" class="profile-picture rounded-2 border border-dark-75 border-5">
                         </div>
                         <!-- <div class="d-inline-flex gap-2 mb-5">
                             <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
@@ -568,40 +374,34 @@ $today = date("Y-m-d");
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
                     </svg>
                     <h2 class="fw-normal">My Worksheet</h2>
                     <p>Some representative placeholder content for the three columns of text below the carousel.
                         This is
                         the first column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
                     </svg>
                     <h2 class="fw-normal">My Reddit Posts</h2>
                     <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
                         second column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
                     </svg>
                     <h2 class="fw-normal">Screenshots</h2>
                     <p>And lastly this, the third column of representative placeholder content.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <p><a class="btn btn-secondary" href="#">View details »</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         </div>
@@ -611,12 +411,9 @@ $today = date("Y-m-d");
             <div class="m-4 p-5 bg-light rounded-3">
                 <h3 class="text-center">Wanna say hi to her? Here are her socials</h3>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 pt-4">
-                    <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href=""><i
-                            class="bi bi-linkedin"></i></a>
-                    <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href=""><i
-                            class="bi bi-reddit"></i></a>
-                    <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href=""><i
-                            class="bi bi-instagram"></i></a>
+                    <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href=""><i class="bi bi-linkedin"></i></a>
+                    <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href=""><i class="bi bi-reddit"></i></a>
+                    <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href=""><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -633,50 +430,39 @@ $today = date("Y-m-d");
                     </p>
                 </div>
                 <div class="col-md-10 mx-auto col-lg-5">
-                    <form id="sendMessageForm"
-                        class="p-3 row border rounded-3 bg-light g-3 needs-validation was-validated" novalidate="">
-                        <input name="name" id="name" class="control-form" autocomplete="off" maxlength="1"
-                            style="display: none;">
+                    <form id="sendMessageForm" class="p-3 row border rounded-3 bg-light g-3 needs-validation was-validated" novalidate="">
+                        <input name="name" id="name" class="control-form" autocomplete="off" maxlength="1" style="display: none;">
                         <div class="col-md-6">
                             <label for="prospectName" class="form-label">Your name</label>
-                            <input type="text" class="form-control form-inputs" name="prospectName" id="prospectName"
-                                autocomplete="off" minlength="2" maxlength="25" required="">
+                            <input type="text" class="form-control form-inputs" name="prospectName" id="prospectName" autocomplete="off" minlength="2" maxlength="25" required="">
                             <span id="name-err" class="invalid-feedback">Your name's missing</span>
-                            <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"
-                                data-lastpass-icon-root=""></div>
-                        </div>
-                        <input name="phone" id="phone" class="control-form" autocomplete="off" maxlength="1"
-                            style="display: none;">
+                            <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div>
+                        <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div></div>
+                        <input name="phone" id="phone" class="control-form" autocomplete="off" maxlength="1" style="display: none;">
                         <div class="col-md-6">
                             <label for="prospectPhone" class="form-label">Phone number</label>
-                            <input type="number" class="form-control form-inputs" name="prospectPhone"
-                                id="prospectPhone" autocomplete="off" minlength="7" maxlength="25" required="">
+                            <input type="number" class="form-control form-inputs" name="prospectPhone" id="prospectPhone" autocomplete="off" minlength="7" maxlength="25" required="">
                             <span id="phone-err" class="invalid-feedback">It'll be easier to reach you if you leave
                                 your
                                 phone
                                 number</span>
                         </div>
-                        <input name="email" id="email" class="control-form" autocomplete="off" maxlength="1"
-                            style="display: none;">
+                        <input name="email" id="email" class="control-form" autocomplete="off" maxlength="1" style="display: none;">
                         <div class="col-md-6">
                             <label for="prospectEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control form-inputs" name="prospectEmail" id="prospectEmail"
-                                autocomplete="off" minlength="8" maxlength="25" required="">
+                            <input type="email" class="form-control form-inputs" name="prospectEmail" id="prospectEmail" autocomplete="off" minlength="8" maxlength="25" required="">
                             <span id="email-err" class="invalid-feedback">I'm certain you have a valid email
                                 address</span>
                         </div>
-                        <input name="message" id="message" class="control-form" autocomplete="off" maxlength="1"
-                            style="display: none;">
+                        <input name="message" id="message" class="control-form" autocomplete="off" maxlength="1" style="display: none;">
                         <div class="col-md-6">
                             <label for="prospectMessage" class="form-label">Your message</label>
-                            <textarea class="form-control form-inputs" id="prospectMessage" name="prospectMessage"
-                                minlength="5" maxlength="70" rows="1" required=""></textarea>
+                            <textarea class="form-control form-inputs" id="prospectMessage" name="prospectMessage" minlength="5" maxlength="70" rows="1" required=""></textarea>
                             <span id="msg-err" class="invalid-feedback">Just a few words on what you'd like us to
                                 work
                                 on</span>
                         </div>
-                        <input name="comment" id="comment" class="control-form" autocomplete="off" maxlength="1"
-                            style="display: none;">
+                        <input name="comment" id="comment" class="control-form" autocomplete="off" maxlength="1" style="display: none;">
                         <div class="col-12">
                             <button class="btn btn-lg btn-primary w-100" onclick="sendMessage();">
                                 <span id="send-button-text">Send</span>
@@ -698,8 +484,7 @@ $today = date("Y-m-d");
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Think we can collab? <span
-                            class="text-body-secondary">Drop me a line.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">Think we can collab? <span class="text-body-secondary">Drop me a line.</span></h2>
                     <p class="lead">Got an itch for a new project but not enough hands? Let's team up - I excel at
                         writing, editing and research. Have a website need a refresh? I love all things code and
                         design.
@@ -709,12 +494,9 @@ $today = date("Y-m-d");
                         swinging, give me a shout. Just say the word and I'm ready to dive in!</p>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
                     </svg>
                 </div>
             </div>
@@ -752,25 +534,19 @@ $today = date("Y-m-d");
                                 <ul class="nav flex-column">
                                     <li class="nav-item mb-2">
                                         <a href="javascript: void()" class="nav-link p-0 text-muted">
-                                            <img src="assets/img/profile-picture.jpg" alt="Profile picture" width="100"
-                                                height="100"
-                                                class="profile-picture rounded-circle border border-light border-5">
+                                            <img src="assets/img/profile-picture.jpg" alt="Profile picture" width="100" height="100" class="profile-picture rounded-circle border border-light border-5">
                                         </a>
                                     </li>
                                 </ul>
                                 <ul class="list-unstyled d-flex">
                                     <li class="ms-3">
-                                        <a class="link-white" href="https://github.com/G-bit94"><i
-                                                class="bi bi-github text-light"></i></a>
+                                        <a class="link-white" href="https://github.com/G-bit94"><i class="bi bi-github text-light"></i></a>
                                     </li>
                                     <li class="ms-3">
-                                        <a class="link-white"
-                                            href="https://www.linkedin.com/in/kelvin-gitahi-018a47143/"><i
-                                                class="bi bi-linkedin text-light"></i></a>
+                                        <a class="link-white" href="https://www.linkedin.com/in/kelvin-gitahi-018a47143/"><i class="bi bi-linkedin text-light"></i></a>
                                     </li>
                                     <li class="ms-3">
-                                        <a class="link-white" href="https://www.facebook.com/gitahi.kaweeru"><i
-                                                class="bi bi-facebook text-light"></i></a>
+                                        <a class="link-white" href="https://www.facebook.com/gitahi.kaweeru"><i class="bi bi-facebook text-light"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -784,83 +560,4 @@ $today = date("Y-m-d");
                 </footer>
             </div>
         </div>
-    </main>
-
-
-
-    <!-- scripts -->
-
-    <!--
-    /*****************
-     DEV
-     */
-    -->
-    <?php
-    // require_once "vendor/php-hot-reloader/src/HotReloader.php";
-    // new HotReloader\HotReloader('//localhost/payupfrancesca/vendor/php-hot-reloader/phrwatcher.php');
-    ?>
-
-    <!-- Save Main contenteditable changes on the browser to page.php -->
-    <script type="text/javascript">
-
-        document.addEventListener('DOMContentLoaded', () => {
-
-            const main = document.querySelector('main');
-            const sendInfo = {};
-
-            // bind  changes to the <main> element and write the content of the entire document to page.php
-
-            // List of events to bind
-            const events = ['blur', 'keyup', 'keydown', 'paste', 'input'];
-
-            // Function to save content
-            const saveContent = () => {
-                const mainContent = main.innerHTML;
-                sendInfo.content = mainContent;
-                saveToFile(sendInfo, 'page.php');
-            };
-
-            // Bind events to the contenteditable element
-            events.forEach(event => {
-                main.addEventListener(event, saveContent);
-            });
-
-            // Function to save content to a file
-            function saveToFile(content, filename) {
-                fetch("save_page.php", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify(sendInfo)
-                })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.status == "success") {
-                            alert("Error saving content.");
-                        } else {
-                            console.log("Saved successfully.");
-                        }
-                    })
-                    .catch(error => {
-                        console.error("Error:", error);
-                    });
-            }
-
-        });
-
-    </script>
-
-    <!--
-     /*****************
-     END DEV
-      */
-    -->
-
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <!-- scripts -->
-
-</body>
-
-</html>
+    
