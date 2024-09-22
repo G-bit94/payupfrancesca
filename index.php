@@ -125,8 +125,7 @@ $today = date('Y-m-d');
                         </li>
                     </ul>
                     <span class="d-flex justify-content-between align-items-center">
-                        <a class="btn btn-outline-auto mb-3 me-3" href="https://kelvin.sentiadigital.com"
-                            target="_blank">
+                        <a class="btn btn-outline-auto mb-3 me-3" href="#!" target="_blank">
                             <i class="bi bi-kanban"></i> My Portfolio
                         </a>
                         <!-- Dark theme toggle -->
