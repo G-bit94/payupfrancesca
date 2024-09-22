@@ -301,3 +301,24 @@
 }
 
 /* End ribbon */
+
+/* Google Sheets iFrames | #Evidence */
+.styled-iframe {
+  width: 100%;
+  /* Full width for responsiveness */
+  height: 400px;
+  /* Adjust height as needed */
+  border: none;
+  /* Remove default border */
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  transition: box-shadow 0.3s ease;
+  /* Smooth shadow on hover */
+}
+
+.styled-iframe:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Increased shadow on hover */
+}
