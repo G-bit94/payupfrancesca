@@ -32,7 +32,7 @@
         </div>
         <div class="col">
             <p class="lead text-start fs-6">
-                Howdy! I'm Kelvin, a hard worker who takes pride in what I do and believes in doing the
+                Hi there! I'm Kelvin, a hard worker who takes pride in what I do and believes in doing the
                 right
                 thing in all my dealings. As a freelancer, I've always gone the extra mile to deliver
                 top-notch
@@ -104,8 +104,8 @@
                                 <i class="bi bi-fire text-dark fs-2"></i>
                             </span>
                         </div> -->
-                <img src="/payupfrancesca/assets/img/francesca-square.png" class="zoom d-block mx-lg-auto img-fluid"
-                    alt="Francesca" width="700" height="480" loading="lazy">
+                <img src="assets/img/francesca-square.png" class="zoom d-block mx-lg-auto img-fluid" alt="Francesca"
+                    width="700" height="480" loading="lazy">
                 <div class="d-flex flex-column h-100 p-3 text-center text-shadow-1">
                     <h4 class="p-2 lh-1 fw-bold">Francesca DelGuidice</h4>
                 </div>
@@ -133,8 +133,7 @@
 
             <article class="blog-post">
                 <h2 class="display-5 link-body-emphasis mb-1">r/SlaveLabour</h2>
-                <p class="blog-post-meta">10<sup>th</sup> September, 2024 by <a
-                        href="https://kelvin.sentiadigital.com/">Kelvin</a></p>
+                <p class="blog-post-meta">10<sup>th</sup> September, 2024 by <a href="#!">Kelvin</a></p>
 
                 <p>I stumbled upon this subreddit called r/SlaveLabour in April 2022,
                     a
@@ -245,8 +244,8 @@
                     that he'd
                     be more responsive to my
                     plea.</p>
-                <img src="/payupfrancesca/assets/img/anthony.png" class="zoom d-block mx-lg-auto img-fluid"
-                    alt="Email screenshot" width="700" height="480" loading="lazy">
+                <img src="assets/img/anthony.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email screenshot"
+                    width="700" height="480" loading="lazy">
                 <br>
                 <p>This email to Anthony was my last attempt to resolve the situation amicably within Francesca's family
                     circle. Unfortunately, like my previous efforts, this too was met with silence. The lack of response
@@ -260,16 +259,15 @@
                     apart)
                     expressing my
                     frustration and demanding resolution. </p>
-                <img src="/payupfrancesca/assets/img/strongly-worded-email.png"
-                    class="zoom d-block mx-lg-auto img-fluid" alt="Email screenshot" width="700" height="480"
-                    loading="lazy">
+                <img src="assets/img/strongly-worded-email.png" class="zoom d-block mx-lg-auto img-fluid"
+                    alt="Email screenshot" width="700" height="480" loading="lazy">
                 <p><br></p>
                 <p>To my surprise (admittedly), I instead received a response from Stephanie, Francesca's cousin (or so
                     the
                     former claimed),
                     who acknowledged the issue and promised to look into it.</p>
-                <img src="/payupfrancesca/assets/img/stephanie.png" class="zoom d-block mx-lg-auto img-fluid"
-                    alt="Email from Stephanie" width="700" height="480" loading="lazy">
+                <img src="assets/img/stephanie.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email from Stephanie"
+                    width="700" height="480" loading="lazy">
                 <p><br>It was curious that Stephanie appeared to distort my communication, implying I had merely
                     requested a response from Francesca by the 30th of June, whereas my message had clearly
                     stipulated an expectation of receiving full or partial compensation by that date.</p>
@@ -283,8 +281,8 @@
                     the entire ordeal to him, emphasizing the hardship and frustration I had endured due to
                     the
                     unpaid work.</p>
-                <img src="/payupfrancesca/assets/img/colin.png" class="zoom d-block mx-lg-auto img-fluid"
-                    alt="Email to Colin" width="700" height="480" loading="lazy">
+                <img src="assets/img/colin.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email to Colin"
+                    width="700" height="480" loading="lazy">
 
                 <blockquote class="blockquote">
                     <p><br>"Desperate for a resolution, I decided to reach out to Colin, Francesca's husband,
@@ -352,7 +350,7 @@
                     <h4 class="fst-italic">Do Note That</h4>
                     <p class="mb-0">I don't purport to speak on behalf of other people Francesca has
                         potentially
-                        scammed, someone of whom are named in this exposé. I am to share my experiences only
+                        scammed, someone of whom are named in this exposé. I aim to share my experiences only
                         but
                         it's inevitable that I'll mention others due to the nature of the projects I
                         undertook.
@@ -374,9 +372,8 @@
         <div class="col">
             <a class="boring" href="#!">
                 <div class="p-1 border bg-body-tertiary rounded-3 shadow-sm">
-                    <img src="/payupfrancesca/assets/img/yupvoted.png"
-                        class="zoom d-block mx-lg-auto img-fluid rounded-2" alt="Yupvoted" width="700" height="500"
-                        loading="lazy">
+                    <img src="assets/img/yupvoted.png" class="zoom d-block mx-lg-auto img-fluid rounded-2"
+                        alt="Yupvoted" width="700" height="500" loading="lazy">
                     <h4 class="pt-3 mt-2 mb-4 fw-bold d-flex justify-content-center">
                         Yupvoted
                     </h4>
@@ -386,9 +383,8 @@
         <div class="col">
             <a class="boring" href="#!">
                 <div class="p-1 border bg-body-tertiary rounded-3 shadow-sm">
-                    <img src="/payupfrancesca/assets/img/blklite.png"
-                        class="zoom d-block mx-lg-auto img-fluid rounded-3" alt="Blklite" width="700" height="500"
-                        loading="lazy">
+                    <img src="assets/img/blklite.png" class="zoom d-block mx-lg-auto img-fluid rounded-3" alt="Blklite"
+                        width="700" height="500" loading="lazy">
                     <h4 class="pt-3 mt-2 mb-4 fw-bold d-flex justify-content-center">
                         Blklite
                     </h4>
@@ -398,8 +394,8 @@
         <div class="col">
             <a class="boring" href="#!">
                 <div class="p-1 border bg-body-tertiary rounded-3 shadow-sm">
-                    <img src="/payupfrancesca/assets/img/cv.png" class="zoom d-block mx-lg-auto img-fluid rounded-3"
-                        alt="Online CV" width="700" height="500" loading="lazy">
+                    <img src="assets/img/cv.png" class="zoom d-block mx-lg-auto img-fluid rounded-3" alt="Online CV"
+                        width="700" height="500" loading="lazy">
                     <h4 class="pt-3 mt-2 mb-4 fw-bold d-flex justify-content-center">
                         Online CV
                     </h4>
@@ -411,7 +407,7 @@
             <div class="p-2 border bg-body-tertiary rounded-3 shadow-sm">
                 <h3 class="text-center text-body-emphasis m-1">Job Interview Prep</h3>
                 <div class="col d-flex justify-content-center align-items-center p-2">
-                    <img src="/payupfrancesca/assets/img/strategy.png" alt="Strategy" width="360" height="300"
+                    <img src="assets/img/strategy.png" alt="Strategy" width="360" height="300"
                         class="profile-picture rounded-2 border border-dark-75 border-5">
                 </div>
                 <p class="text-start mx-auto lead fs-6 p-1">
@@ -465,11 +461,13 @@
 
         <div class="col">
             <div class="styled-iframe p-2 border">
-                <iframe height="316"
-                    src="https://embed.reddit.com/r/Kenya/comments/zu4xk9/need_advice_how_do_i_get_paid_by_a_remote_client/?embed=true&amp;ref_source=embed&amp;ref=share&amp;utm_medium=widgets&amp;utm_source=embedv2&amp;utm_term=23&amp;utm_name=post_embed&amp;embed_host_url=http%3A%2F%2Flocalhost%2Fpayupfrancesca%2F"
-                    width="640px" scrolling="no" allowfullscreen="true"
-                    sandbox="allow-scripts allow-same-origin allow-popups" allow="clipboard-read; clipboard-write"
-                    style="border: medium; max-width: 100%; border-radius: 8px; display: block; margin: 0px auto;"></iframe>
+                <blockquote class="reddit-embed-bq" style="height:316px" data-embed-height="316">
+                    <a
+                        href="https://www.reddit.com/r/Kenya/comments/zu4xk9/need_advice_how_do_i_get_paid_by_a_remote_client/">[Need
+                        Advice] How Do I Get Paid by a Remote Client Who Won't Follow Through?</a><br> by<a
+                        href="https://www.reddit.com/user/MusicCone/">u/MusicCone</a> in<a
+                        href="https://www.reddit.com/r/Kenya/">Kenya</a>
+                </blockquote>
                 <script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
                 <div class="mt-4 pt-3">
@@ -486,7 +484,7 @@
 
 
 <div class="container my-2" id="contact">
-    <div class="row align-items-center py-5 mt-3">
+    <div class="row align-items-center py-5 mt-5">
         <div class="col-md-6 col-lg-6 text-start">
             <h2 class="fs-1">Think we can collab? <span class="text-body-secondary">Drop me
                     a line.</span></h2>

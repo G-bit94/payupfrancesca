@@ -13,7 +13,7 @@ $new_url = preg_replace(
 );
 $site_name = 'Payup Francesca | You Owe Kelvin $1593';
 $site_url = $protocol . '://' . $domain;
-$base_url = '/payupfrancesca';
+$base_url = '';
 $today = date('Y-m-d');
 ?>
 
@@ -23,7 +23,7 @@ $today = date('Y-m-d');
 <head>
 
     <!-- Core scripts -->
-    <script src="<?php echo $base_url; ?>/assets/js/color-modes.js"></script>
+    <script src="<?php echo $base_url; ?>assets/js/color-modes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
@@ -62,8 +62,8 @@ $today = date('Y-m-d');
     <meta name="theme-color" content="#712cf9">
 
     <!-- Custom CSS -->
-    <link href="<?php echo $base_url; ?>/assets/css/custom.css" rel="stylesheet">
-    <link href="<?php echo $base_url; ?>/assets/css/carousel.css" rel="stylesheet">
+    <link href="<?php echo $base_url; ?>assets/css/custom.css" rel="stylesheet">
+    <link href="<?php echo $base_url; ?>assets/css/carousel.css" rel="stylesheet">
 
     <!-- Google reCAPTCHA -->
     <script
