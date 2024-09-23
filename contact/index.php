@@ -13,7 +13,7 @@ require_once '../vendor/autoload.php';
 $response = [];
 
 // Your reCAPTCHA secret key
-$recaptchaSecretKey = '6LcxXEcqAAAAAMQkT42i_MY8l_Fqr8Kw-Af0K-DW';
+$recaptchaSecretKey = getenv('RECAPTCHA_SECRET_KEY');
 
 // Function to validate reCAPTCHA token
 function validateRecaptcha($recaptchaSecretKey, $recaptchaToken)
@@ -135,10 +135,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587;
             $mail->SMTPSecure = 'tls';
             $mail->SMTPAuth = true;
-            $mail->Username = "robertross.dev@gmail.com";
-            $mail->Password = "rlgj mcyq czzy ovqm";
+            $mail->Username = getenv('SMTP_USERNAME');
+            $mail->Password = getenv('SMTP_PASSWORD');
             $mail->setFrom($prospectEmail, $prospectName . " via PayUpFrancesca");
-            $mail->addAddress("gjuliuskelvin@gmail.com");
+            $mail->addAddress(getenv('SMTP_MAIL_ADDRESS'));
             $mail->Subject = "New Message From Prospect On PayUpFrancesca";
             $mail->isHTML(true);
             $mail->Body = $mailHTML;

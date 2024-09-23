@@ -2,3 +2,4 @@
 *.code-workspace
 *.zip
 *.7z
+.env
