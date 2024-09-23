@@ -83,12 +83,12 @@
                 Based on our interactions and my observations of her however, a few things seem clear about
                 Francesca.
                 Francesca presented herself online as a savvy tech entrepreneur with various online business
-                ventures. <br><br>
+                endeavours. <br><br>
                 She at first gave me the impression of someone legitimate, someone who'd never scam anyone, which is why
                 I felt comfortable working with her. Yet
                 beneath this polished facade lurked a conniving individual who no doubt lacked compassion, integrity and
                 honesty.
-                Her true character was one of deception and exploitation.
+                Her true character was one of deception and exploitation!
             </p>
         </div>
         <div class="col-md-5">
@@ -137,20 +137,21 @@
 
                 <p>I stumbled upon this subreddit called r/SlaveLabour in April 2022,
                     a
-                    subreddit where people post all kinds of gigs they need help with, while hunting for
+                    forum where people post all kinds of gigs they need help with, while hunting for
                     freelance work. It was there that I first encountered Francesca. I had posted an ad of
                     sorts
                     saying that I was ready to take up any "techie" gigs that aligned with my skills and
                     experience. I was
                     looking for work as a web dev, content writer/editor, SEO, social media manager, graphic
-                    designer... any tech gigs to help
-                    me stay afloat.
+                    designer... any online/tech gigs to help
+                    me stay afloat as times were tough.
                     <br><br>
                     Francesca happened to be among the first people to reach out following the
                     post and
                     eager to put something on the table, I quickly accepted her offer of work. I
                     remember being elated that my days of strife and anguish were soon going to be over. Why her? Mostly
-                    because I liked her proposition the most and she exuded (faux) legitimacy at every turn and gave me
+                    because I liked her proposition the most (it aligned with my skills) and she exuded (faux)
+                    legitimacy at every turn and gave me
                     no
                     reason to doubt her up
                     to that point.
@@ -207,18 +208,18 @@
                     for a
                     ride.</p>
                 <p>As I grappled with my own situation, I discovered I wasn't alone in the ordeal. Charmaine, a fellow
-                    freelancer from the Philippines who I'd worked with ion Francesca's projects, reached out to me. To
+                    freelancer from the Philippines who I'd worked with in one of Francesca's projects, reached out to
+                    me. To
                     my dismay,
                     she shared a strikingly similar tale of unpaid work and ignored communications. This not
                     only validated my experience but also hinted at a potentially broader pattern of exploitation.
                     Charmaine's case, mirroring my own, added another layer of urgency to my quest for resolution and
                     justice.</p>
-                <p>Basically, our experiences with Francesca followed a similar pattern, characterized by:
+                <p>Basically, both of our experiences with Francesca followed a similar pattern, characterized by:
                 </p>
                 <ul>
-                    <li>Sporadic communication from Francesca which eventually died off.</li>
+                    <li>Sporadic communication from Francesca which would eventually die off.</li>
                     <li>Payment that never materialized despite multiple follow-ups.</li>
-                    <li>Francesca displayed absolutely no intention of honoring the agreement.</li>
                 </ul>
                 <p>As the months passed, my frustration and disappointment grew. I had dedicated a
                     significant
@@ -255,28 +256,30 @@
                     legitimate concerns.</p>
                 <br>
                 <h3>Stephanie</h3>
-                <p>As the situation with Francesca dragged on, I sent her a strongly worded email (well, two a month
+                <p>As the situation with Francesca dragged on, I sent her a strongly worded email (well, two of them
+                    actually, sent a month
                     apart)
                     expressing my
                     frustration and demanding resolution. </p>
                 <img src="assets/img/strongly-worded-email.png" class="zoom d-block mx-lg-auto img-fluid"
                     alt="Email screenshot" width="700" height="480" loading="lazy">
                 <p><br></p>
-                <p>To my surprise (admittedly), I instead received a response from Stephanie, Francesca's cousin (or so
-                    the
-                    former claimed),
+                <p>To my surprise (admittedly), I instead received a response from Stephanie Bove, Francesca's cousin
+                    (or so
+                    Stephanie claimed),
                     who acknowledged the issue and promised to look into it.</p>
                 <img src="assets/img/stephanie.png" class="zoom d-block mx-lg-auto img-fluid" alt="Email from Stephanie"
                     width="700" height="480" loading="lazy">
                 <p><br>It was curious that Stephanie appeared to distort my communication, implying I had merely
-                    requested a response from Francesca by the 30th of June, whereas my message had clearly
+                    requested a response from Francesca by the 30th of June, whereas my email had clearly
                     stipulated an expectation of receiving full or partial compensation by that date.</p>
                 <p>And just like Francesca, Stephanie's communication abruptly ceased, leaving me in the
                     lurch
                     once more.</p>
                 <p>In a last-ditch attempt to get things sorted out, I finally decided to reach out to
                     Colin,
-                    Francesca's husband, hoping he might intervene and help mediate the situation. I
+                    Francesca's husband (whom I'd actually done a couple of tasks for as part of Francesca's work),
+                    hoping he might intervene and help mediate the situation. I
                     explained
                     the entire ordeal to him, emphasizing the hardship and frustration I had endured due to
                     the
@@ -295,9 +298,9 @@
 
                 <p>As I continue waiting for a response from Colin, almost an year now, I can't help
                     but
-                    reflect on the emotional toll this experience has taken on me. The sense of betrayal and
-                    disrespect is overwhelming, and the financial strain has been a constant source of
-                    stress. I
+                    reflect on the emotional toll this whole experience has taken on me. The sense of betrayal and
+                    disrespect is overwhelming, and the financial strain was/has been a constant source of
+                    stress. That's why I
                     remain determined to pursue every avenue available to me, including legal action if
                     necessary, to ensure that my rights are protected and that I receive the compensation I
                     rightfully earned.</p>
@@ -308,10 +311,10 @@
                 <h2 class="display-5 link-body-emphasis mb-1">The Aftermath</h2>
                 <p>It has now been exactly two years since Francesca went mute, and I am still
                     waiting
-                    for the payment that I rightfully earned. The financial impact of this scam has been
-                    significant, as I had relied on the promised compensation to cover my living expenses
-                    and
-                    invest in my freelance career. She especially had me living in utter pain especially for the
+                    for the payment that I rightfully earned. The financial impact wrought by this scam can't be
+                    overstated. Trusting in Francesca, I'd poured my meager savings into
+                    sustaining myself and upgrading my skills, viewing it as an investment in my burgeoning freelance
+                    career. She especially had me living in utter pain for the
                     first 4
                     months of going silent.</p>
                 <p>Looking back, it's plain as day that Francesca's intentions were never to engage in a
@@ -330,15 +333,15 @@
                 <p>This whole experience has been a rude awakening to the risks and challenges freelancers
                     face
                     in the digital age. It just goes to show how important it is to do your homework, get
-                    everything in writing, and make sure to only use platforms that have safeguards in place to
+                    everything in writing if you can, and make sure to only use platforms that have safeguards in place
+                    to
                     protect
                     freelancers from getting scammed and exploited.</p>
                 <p>As I've previously mentioned, I remain determined to seek justice
                     and
                     hold Francesca accountable for her actions. Being a non-UK resident, it's hard for me to mount a
-                    raise against her as far as I can tell. However, I am open to new suggestions and advice
-                    on&nbsp;
-                    the various various avenues I can explore, legal and otherwise. I'm determined to
+                    case against her as far as I can tell. However, I am open to new suggestions and advice
+                    on the various avenues I can explore, legal and otherwise. I'm determined to go all the way to
                     ensure that I receive the compensation I am rightfully owed.</p>
             </article>
 
@@ -431,7 +434,7 @@
     </h2>
 
     <!-- Three columns of text below the carousel -->
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch row-cols-sm-g-5 g-4">
 
         <div class="col sheet-wrapper">
             <iframe
@@ -459,6 +462,38 @@
                 details »</a>
         </div>
 
+        <div class="col sheet-wrapper">
+            <iframe
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZl2DWo37bFWFhP40YKWqPPaVRaAf5vYclnpVONhkZr4_vCztHygIQArhLEusSgpFjl8MGowartZJM/pubhtml?gid=810460954&amp;single=true&amp;widget=true&amp;headers=false"
+                class="styled-iframe zoom p-2 border"></iframe>
+
+            <h4 class="fw-normal mt-1">My Worksheet (Week 20)</h4>
+
+            <a class="btn btn-secondary"
+                href="https://docs.google.com/spreadsheets/d/1NQ06jl0EMYZbuKCtz_DdFZeL9ctnso3cpjJwuPZpXnI/view">View
+                details »</a>
+        </div>
+
+        <div class="col sheet-wrapper">
+            <iframe src="assets/html/Girl Friday _ Trello (9_19_2024 10_27_02 AM).html"
+                class="styled-iframe zoom p-2 border"></iframe>
+
+            <h4 class="fw-normal mt-1">Trello Board | Girl Friday</h4>
+
+            <a class="btn btn-secondary" href="assets/html/Girl Friday _ Trello (9_19_2024 10_27_02 AM).html">View
+                details »</a>
+        </div>
+
+        <div class="col sheet-wrapper">
+            <iframe src="assets/html/Yupvoted _ Trello (9_19_2024 10_25_15 AM).html"
+                class="styled-iframe zoom p-2 border"></iframe>
+
+            <h4 class="fw-normal mt-1">Trello Board | Yupvoted</h4>
+
+            <a class="btn btn-secondary" href="assets/html/Yupvoted _ Trello (9_19_2024 10_25_15 AM).html">View
+                details »</a>
+        </div>
+
         <div class="col">
             <div class="styled-iframe p-2 border">
                 <blockquote class="reddit-embed-bq" style="height:316px" data-embed-height="316">
@@ -483,12 +518,12 @@
 </div>
 
 
-<div class="container my-2" id="contact">
+<div class="container my-2 mb-5" id="contact">
     <div class="row align-items-center py-5 mt-5">
         <div class="col-md-6 col-lg-6 text-start">
             <h2 class="fs-1">Think we can collab? <span class="text-body-secondary">Drop me
                     a line.</span></h2>
-            <p class="lead fs-6">Got an itch for a new project but not enough hands? Let's team up - I excel at
+            <p class="lead fs-6">Got an itch for a new project but not enough hands? Let's team up — I excel at
                 writing, editing and research. Have a website need a refresh? I love all things code and
                 design.
             </p>
@@ -496,22 +531,22 @@
                 out
                 swinging, give me a shout. Just say the word and I'm ready to dive in!</p>
             <p class="lead fs-6">
-                Or if you have any information that could assist me in my pursuit of justice or if you have
-                experienced a similar scam, please feel free to reach out to me.
-                I am open to collaboration and support from the freelance community.
+                If you have any information that could assist me in my pursuit of justice or if you have
+                experienced a similar scam, please feel free to reach out to me — it could make a huge difference.
+                I'm open to collaboration and support from fellow freelancers and industry professionals alike. Thanks!
             </p>
         </div>
         <div class="col-md-6 col-lg-6 pt-5 mt-3">
             <div id="sendMessageWrapper" class="p-3 border rounded-3 shadow-lg-3">
-                <div class="row row-cols-2 row-cols-sm-1 g-3">
-                    <div class="col-md-6">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-5 m-1">
                         <label for="prospectName" class="form-label">Your name</label>
                         <input type="text" class="form-control form-inputs" name="prospectName" id="prospectName"
                             autocomplete="off" minlength="2" maxlength="25">
                         <span id="prospectName-err" class="invalid-feedback">Your name's
                             missing</span>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5 m-1">
                         <label for="prospectPhone" class="form-label">Phone number</label>
                         <input type="tel" class="form-control form-inputs" name="prospectPhone" id="prospectPhone"
                             autocomplete="off" pattern="[0-9]{7,25}"
@@ -521,7 +556,7 @@
                             phone
                             number</span>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col=md-5 m-1">
                         <label for="prospectEmail" class="form-label">Email</label>
                         <input type="email" class="form-control form-inputs" name="prospectEmail" id="prospectEmail"
                             autocomplete="off" minlength="8" maxlength="25">
@@ -529,7 +564,7 @@
                             have a valid email
                             address</span>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col m-1">
                         <label for="prospectMessage" class="form-label">Your message</label>
                         <textarea class="form-control form-inputs" id="prospectMessage" name="prospectMessage"
                             minlength="5" maxlength="1000" rows="2"></textarea>
@@ -540,7 +575,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button class="btn btn-lg btn-primary w-100 m-2" id="submit">
+                    <button class="btn btn-lg btn-primary w-75 m-3" id="submit">
                         <span id="send-button-text">Send</span>
                         <span id="spinner" style="display: none;">
                             <span class="spinner-border spinner-border-sm" role="status"></span>
@@ -548,7 +583,6 @@
                         </span>
                     </button>
                 </div>
-
                 <ul class="list-unstyled d-flex justify-content-center pt-5">
                     <li class="ms-3">
                         <a href="https://twitter.com/thecybermoran"><i class="bi bi-twitter-x"></i></a>
@@ -557,10 +591,7 @@
                         <a href="https://www.reddit.com/user/MusicCone/"><i class="bi bi-reddit"></i></a>
                     </li>
                 </ul>
-
             </div>
-
-            <!-- <hr class="my-4 mx-2"> -->
         </div>
     </div>
 </div>

@@ -121,7 +121,7 @@ $today = date('Y-m-d');
                             <a class="nav-link fw-bold" href="#evidence">Evidence</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#contact">Contact</a>
+                            <a class="nav-link fw-bold" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                     <span class="d-flex justify-content-between align-items-center">
