@@ -332,7 +332,7 @@ $dotenv->load();
                     sendInfo.recaptchaToken = token;
 
                     // Send the sendInfo object using POST to /contact as JSON
-                    fetch("contact/", {
+                    fetch("https://amandablackwell.serv00.net/contact/", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json"
