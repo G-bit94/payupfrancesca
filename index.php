@@ -15,6 +15,12 @@ $site_name = 'Payup Francesca | You Owe Kelvin $1593';
 $site_url = $protocol . '://' . $domain;
 $base_url = '';
 $today = date('Y-m-d');
+
+require 'vendor/autoload.php';  // Loads Composer dependencies
+
+// Load the .env file
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 ?>
 
 <!DOCTYPE html>
@@ -66,8 +72,14 @@ $today = date('Y-m-d');
     <link href="<?php echo $base_url; ?>assets/css/carousel.css" rel="stylesheet">
 
     <!-- Google reCAPTCHA -->
-    <script
-        src="https://www.google.com/recaptcha/enterprise.js?render=6LcxXEcqAAAAALTnc0Jrar1GregrFqZdDFxGXyUw"></script>
+    <script>
+        const RECAPTCHA_SITE_KEY = "<?php echo $_ENV['RECAPTCHA_SITE_KEY']; ?>";
+        console.log(RECAPTCHA_SITE_KEY);
+
+        const script = document.createElement('script');
+        script.setAttribute('src', 'https://www.google.com/recaptcha/enterprise.js?render=' + RECAPTCHA_SITE_KEY);
+        document.head.appendChild(script);
+    </script>
 </head>
 
 <body class="d-flex flex-column h-100 overflow-auto py-0">
@@ -314,7 +326,7 @@ $today = date('Y-m-d');
                 // Execute reCAPTCHA and get the token
                 grecaptcha.enterprise.ready(async () => {
 
-                    const token = await grecaptcha.enterprise.execute('6LcxXEcqAAAAALTnc0Jrar1GregrFqZdDFxGXyUw', { action: 'submit' });
+                    const token = await grecaptcha.enterprise.execute(RECAPTCHA_SITE_KEY, { action: 'submit' });
 
                     // Add the token to the sendInfo object
                     sendInfo.recaptchaToken = token;

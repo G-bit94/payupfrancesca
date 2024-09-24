@@ -2,18 +2,23 @@
 
 date_default_timezone_set('Africa/Nairobi');
 
-error_reporting(error_level: 0);
+// error_reporting(error_level: 0);
 
 // Import PHPMailer classes
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require_once '../vendor/autoload.php';
+require_once '../vendor/autoload.php';  // Load Composer dependencies
 
+// Load the .env file from the root directory (hence dirname())
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+$dotenv->load();
+
+// Initialize response array variable
 $response = [];
 
-// Your reCAPTCHA secret key
-$recaptchaSecretKey = getenv('RECAPTCHA_SECRET_KEY');
+// Get reCAPTCHA secret key
+$recaptchaSecretKey = $_ENV['RECAPTCHA_SECRET_KEY'];
 
 // Function to validate reCAPTCHA token
 function validateRecaptcha($recaptchaSecretKey, $recaptchaToken)
@@ -135,10 +140,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587;
             $mail->SMTPSecure = 'tls';
             $mail->SMTPAuth = true;
-            $mail->Username = getenv('SMTP_USERNAME');
-            $mail->Password = getenv('SMTP_PASSWORD');
+            $mail->Username = $_ENV['SMTP_USERNAME'];
+            $mail->Password = $_ENV['SMTP_PASSWORD'];
             $mail->setFrom($prospectEmail, $prospectName . " via PayUpFrancesca");
-            $mail->addAddress(getenv('SMTP_MAIL_ADDRESS'));
+            $mail->addAddress($_ENV['SMTP_MAIL_ADDRESS']);
             $mail->Subject = "New Message From Prospect On PayUpFrancesca";
             $mail->isHTML(true);
             $mail->Body = $mailHTML;
@@ -155,4 +160,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     echo json_encode($response);
+} else {
+    echo json_encode(['status' => 'FAILED', 'message' => 'Invalid request.']);
 }
