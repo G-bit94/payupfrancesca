@@ -1,4 +1,4 @@
-#READ any READMEs in subfolders before deployment
+# READ any READMEs in subfolders before deployment
 
 References:
 
@@ -47,3 +47,8 @@ The key's randomart image is:
 | . .o++ |
 | ..o+o |
 +----[SHA256]-----+`
+
+# Git Auth locally
+
+- Gbit - http
+- cindy - SSH
