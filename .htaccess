@@ -1,0 +1,22 @@
+<IfModule mod_headers.c>
+    # Enable CORS for all origins (for development; use specific domain in production)
+    Header set Access-Control-Allow-Origin "*"
+
+    # Allow specific methods such as POST, GET, and OPTIONS
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+
+    # Allow specific headers for your POST requests (like Content-Type for JSON)
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+
+    # Handle preflight requests (OPTIONS method)
+    SetEnvIf Request_Method OPTIONS OPTIONS_REQUEST
+    Header set Access-Control-Allow-Origin "*" env=OPTIONS_REQUEST
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS" env=OPTIONS_REQUEST
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization" env=OPTIONS_REQUEST
+    Header set Access-Control-Max-Age 86400 env=OPTIONS_REQUEST
+
+    # Optional: Add other security headers if needed
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>

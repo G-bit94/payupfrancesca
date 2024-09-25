@@ -1,4 +1,8 @@
-Reference: https://chatgpt.com/c/66f141e5-cf84-800c-9145-44c62258f3e0
+References:
+
+Git branch setup: https://chatgpt.com/c/66f141e5-cf84-800c-9145-44c62258f3e0
+
+Fixing CORS blocking: https://chatgpt.com/c/66f3f9d4-a9a4-800c-b55f-a8dd26a41bb5
 
 # This project runs as such:
 

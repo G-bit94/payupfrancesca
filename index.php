@@ -28,9 +28,6 @@ $dotenv->load();
 
 <head>
 
-    <script src="//unpkg.com/xdomain@0.8.2/dist/xdomain.min.js"
-        slave="https://amandablackwell.serv00.net/proxy.html"></script>
-
     <!-- Core scripts -->
     <script src="<?php echo $base_url; ?>assets/js/color-modes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
@@ -77,7 +74,6 @@ $dotenv->load();
     <!-- Google reCAPTCHA -->
     <script>
         const RECAPTCHA_SITE_KEY = "<?php echo $_ENV['RECAPTCHA_SITE_KEY']; ?>";
-        console.log(RECAPTCHA_SITE_KEY);
 
         const script = document.createElement('script');
         script.setAttribute('src', 'https://www.google.com/recaptcha/enterprise.js?render=' + RECAPTCHA_SITE_KEY);
@@ -282,7 +278,6 @@ $dotenv->load();
                     // Check if URL is retrieved correctly
                     if (url) {
                         wrapper.onclick = () => {
-                            console.log(url);  // Log the URL to the console
                             window.location.href = url;  // Redirect to the URL
                         };
                     } else {
