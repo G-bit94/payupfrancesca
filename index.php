@@ -28,6 +28,9 @@ $dotenv->load();
 
 <head>
 
+    <script src="//unpkg.com/xdomain@0.8.2/dist/xdomain.min.js"
+        slave="https://amandablackwell.serv00.net/proxy.html"></script>
+
     <!-- Core scripts -->
     <script src="<?php echo $base_url; ?>assets/js/color-modes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
