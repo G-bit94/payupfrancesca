@@ -1,3 +1,5 @@
+#READ any READMEs in subfolders before deployment
+
 References:
 
 Git branch setup: https://chatgpt.com/c/66f141e5-cf84-800c-9145-44c62258f3e0
