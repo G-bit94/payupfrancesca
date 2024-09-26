@@ -18,6 +18,26 @@
     </div>
 </div>
 
+<!-- Amount Due -->
+
+<div class="container px-4 py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-2 fw-bold mb-3">$1,593</h1>
+                <p class="lead mb-4">The price of broken promises and unpaid work.</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <p class="h3 mb-0">2+ Years</p>
+                <p class="lead">of waiting for payment</p>
+                <hr class="my-4 border-light">
+                <p class="h3 mb-0">3+ Months</p>
+                <p class="lead">of dedicated work</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- About Me -->
 
 <div class="container px-4 py-3" id="about-me">
@@ -133,7 +153,8 @@
 
             <article class="blog-post">
                 <h2 class="display-5 link-body-emphasis mb-1">r/SlaveLabour</h2>
-                <p class="blog-post-meta">10<sup>th</sup> September, 2024 by <a href="#!">Kelvin</a></p>
+                <p class="blog-post-meta">10<sup>th</sup> September, 2024 by <a
+                        href="https://kelvin.conceptic.digital">Kelvin</a></p>
 
                 <p>I stumbled upon this subreddit called r/SlaveLabour in April 2022,
                     a
@@ -366,14 +387,30 @@
 
 
 <!-- Projects -->
-
 <div class="container px-4 py-3" id="projects">
     <h2 class="pb-2 display-5 link-body-emphasis mb-1 border-bottom">
         Some of The Projects I Worked On
     </h2>
-    <div class="row row-cols-1 row-cols-lg-2 g-4 py-5">
+
+    <!-- Disclaimer -->
+
+    <div class="my-4">
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading"><i class="bi bi-info-circle-fill me-2"></i>Important Note About Project Links</h4>
+            <p>The websites I created have either changed significantly or been removed since their
+                initial
+                development. To provide an accurate representation of the former, Yupvoted and Blklite site links will
+                direct you to snapshots from the Internet Archive's Wayback Machine. For the CV website, I'll be linking
+                to a snapshot of the site as last created in 2022.</p>
+            <hr>
+            <p class="mb-0">These snapshots capture the sites as they appeared closest to the time of my involvement.
+            </p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-2 g-4 pt-2 pb-5">
         <div class="col">
-            <a class="boring" href="#!">
+            <a class="boring" href="https://web.archive.org/web/20230302172330/https://www.yupvoted.com/">
                 <div class="p-1 border bg-body-tertiary rounded-3 shadow-sm">
                     <img src="assets/img/yupvoted.png" class="zoom d-block mx-lg-auto img-fluid rounded-2"
                         alt="Yupvoted" width="700" height="500" loading="lazy">
@@ -384,7 +421,7 @@
             </a>
         </div>
         <div class="col">
-            <a class="boring" href="#!">
+            <a class="boring" href="https://web.archive.org/web/20230302173334/https://www.blklite.com/">
                 <div class="p-1 border bg-body-tertiary rounded-3 shadow-sm">
                     <img src="assets/img/blklite.png" class="zoom d-block mx-lg-auto img-fluid rounded-3" alt="Blklite"
                         width="700" height="500" loading="lazy">
@@ -395,7 +432,7 @@
             </a>
         </div>
         <div class="col">
-            <a class="boring" href="#!">
+            <a class="boring" href="assets/html/Francesca-DelGuidice-CV.html">
                 <div class="p-1 border bg-body-tertiary rounded-3 shadow-sm">
                     <img src="assets/img/cv.png" class="zoom d-block mx-lg-auto img-fluid rounded-3" alt="Online CV"
                         width="700" height="500" loading="lazy">
